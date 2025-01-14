@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
-print(os.getenv('OPENWEATHER_API_KEY')) 
+# print(os.getenv('OPENWEATHER_API_KEY')) As best practice do not expose your API KEY
 print(os.getenv('AWS_BUCKET_NAME'))  
 
 class WeatherDashboard:
