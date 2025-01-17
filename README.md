@@ -1,1 +1,0 @@
-# 30_Days_DevOps_Challenge
