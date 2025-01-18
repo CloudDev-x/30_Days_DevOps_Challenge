@@ -24,20 +24,5 @@ This project is a real-time alert system that sends NBA game day scores to users
 - **External API:** SportsData.io (NBA).
 - **Programming:** Python 3.x.
 
----
-
-## Project Structure
-```
-game-day-notifications/
-├── src/
-│   ├── gd_notifications.py          # Lambda function code
-├── policies/
-│   ├── gd_sns_policy.json           # SNS permissions
-│   ├── gd_eventbridge_policy.json   # EventBridge permissions
-│   └── gd_lambda_policy.json        # Lambda permissions
-├── .gitignore
-└── README.md                        # Documentation
-```
-
 
 
